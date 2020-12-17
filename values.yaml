@@ -45,7 +45,7 @@ ingress:
   annotations: 
         kubernetes.io/ingress.class: "traefik"
   hosts:
-    - host: nginx.cmp.unisys-waf.com
+    - host: nginx-aws.cmp.unisys-waf.com
       paths: ["/"]
   tls: []
   #  - secretName: chart-example-tls
